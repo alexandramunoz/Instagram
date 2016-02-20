@@ -8,7 +8,7 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can sign up to create a new account using Parse authentication
+- [X] User can sign up to create a new account using Parse authentication
 - [ ] User can log in and log out of his or her account
 - [ ] The current signed in user is persisted across app restarts
 - [ ] User can take a photo, add a caption, and post it to "Instagram"
@@ -17,9 +17,11 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [ ] Show the username and creation time for each post
-- [ ] When the user is uploading a photo, show a progress indicator to show how much of the photo has been uploaded
-- [ ] User can connect his or her Facebook account
-- [ ] User can comment on a post and see all comments for each post
+- [ ] After the user submits a new post, show a progress HUD while the post is being uploaded to Parse.
+- [ ] User Profiles:
+   - [ ] Allow the logged in user to add a profile photo
+   - [ ] Display the profile photo with each post
+   - [ ] Tapping on a post's username or profile photo goes to that user's profile page
 
 The following **additional** features are implemented:
 
