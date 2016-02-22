@@ -12,6 +12,8 @@ class FeedTableViewCell: UITableViewCell {
 
     @IBOutlet weak var postedImageView: UIImageView!
     @IBOutlet weak var postedLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
