@@ -15,6 +15,7 @@ class LoggedInViewController: UIViewController, UITableViewDelegate, UITableView
     var userFeed: [PFObject]?
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var nameLabel: UILabel!
     
     @IBAction func onLogOut(sender: AnyObject) {
         PFUser.logOut()
@@ -75,7 +76,13 @@ class LoggedInViewController: UIViewController, UITableViewDelegate, UITableView
             
         }
         
-    
+   //let time = post["time"] as! Double
+    //cell.timeLabel.text = String("\(time)")
+        
+        
+        let username = post["author"] as! PFUser
+        
+        cell.nameLabel.text = post["author"].username
         
         let caption = post["caption"] as! String
         
