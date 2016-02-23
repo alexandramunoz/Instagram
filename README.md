@@ -42,7 +42,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Had difficulty displaying creation time
+Had difficulty getting creation time
 
 ## License
 
